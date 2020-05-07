@@ -1,0 +1,21 @@
+.carousel-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.carousel-item{
+    width: 200px;
+    overflow: hidden;
+display: flex;
+}
+.left-arrow,.right-arrow{
+    padding: 1%;
+    margin: 2%;
+    background-color: rgb(19, 86, 145);
+    cursor: pointer;
+}
+.left-arrow:active,.right-arrow:active{
+    background-color: rgb(10, 35, 56);
+    
+}

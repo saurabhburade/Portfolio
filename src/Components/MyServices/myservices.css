@@ -1,0 +1,32 @@
+.services-card-cont{
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+.myservices-cont{
+    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-ser-hero{
+    font-size: 2.2em;
+    font-weight: 600;
+
+    color: rgb(168, 193, 214);
+    
+}
+.my-ser-subtitle{
+    color: rgb(168, 193, 214);
+    margin: 1% 0%;
+    
+}
+.myser-head{
+    padding: 1%;
+  font-size: 0.9em; 
+    
+}

@@ -1,0 +1,29 @@
+
+.swipe-left{
+     position: relative;
+    left: -700px;
+   animation: leftSlide 1000ms  forwards  ;  
+}
+.swipe-right{
+     position: relative;
+    right: -700px;
+   animation: rightSlide 1000ms  forwards  ;  
+}
+@keyframes leftSlide{
+    
+    from{
+    left: -700px;
+    }
+    to{
+      left: 0px;  
+    }
+}
+@keyframes rightSlide{
+    
+    from{
+    right: -700px;
+    }
+    to{
+      right: 0px;  
+    }
+}

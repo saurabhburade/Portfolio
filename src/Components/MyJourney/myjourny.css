@@ -1,0 +1,72 @@
+.my-jo-head{
+    padding: 2%;
+}
+.my-jo-hero{
+
+        font-size: 2.2em;
+    font-weight: 600;
+
+    color: rgb(168, 193, 214);
+}
+.my-jo-subtitle{
+       color: rgb(168, 193, 214);
+    margin: 1% 0%;
+    font-size: 0.9em;
+}
+.my-jo-btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.jo-btn{
+  display: inline-block;
+  white-space: nowrap;
+  width: fit-content;
+     margin: 2%;
+    font-weight: 500;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding:2% 3%;
+      background-color: rgb(49, 14, 94);
+  color: rgb(188, 198, 207);
+  cursor: pointer;
+  transition-duration: 200ms;
+  box-shadow: 0px 0px 5px rgba(1, 0, 3, 0.192);
+}
+.jo-btn:hover{
+  background-color: rgb(42, 12, 83);
+    
+}
+.jo-btn:active{
+  background-color: rgb(65, 19, 124);
+  box-shadow: 0px 0px 10px rgba(1, 0, 3, 0.651);
+  
+    
+}
+.jo-btn-active{
+  background-color: rgb(158, 105, 25);
+  
+
+}
+.jo-cont{
+    /* padding: 0% 5%; */
+  width:fit-content;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+    background-color: rgba(11, 8, 51, 0.966);
+    /* background-color: tansparent; */
+  
+}
+.my-jo-cont{
+  background: url(../Images/Achievement.svg) no-repeat;
+  background-size: 70em;
+  background-position: 150% -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
