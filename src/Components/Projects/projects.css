@@ -1,21 +1,40 @@
-.carousel-cont{
+.projects-cont{
+    margin: 5%;
+}
+
+.proj-cards-cont{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: whitesmoke;
-}
-.carousel-item{
-    width: 200px;
-    overflow: hidden;
-display: flex;
-}
-.left-arrow,.right-arrow{
-    padding: 1%;
-    margin: 2%;
-    background-color: rgb(19, 86, 145);
-    cursor: pointer;
-}
-.left-arrow:active,.right-arrow:active{
-    background-color: rgb(10, 35, 56);
     
+}
+.proj-head{
+    padding: 2%;
+    
+}
+.proj-hero{
+          font-size: 2.2em;
+    font-weight: 600;
+
+    color: rgb(168, 193, 214);
+}
+.proj-subtitle{
+     font-size: 0.9rem;
+  margin: 1% 0%;
+  /* font-weight: 500; */
+  color: rgb(111, 110, 177);
+}
+@media (max-width:800px){
+
+.projects-cont{
+    margin:5em 1%;
+}
+
+.proj-cards-cont{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-wrap: wrap;
+    
+}
 }

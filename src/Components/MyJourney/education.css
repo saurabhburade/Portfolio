@@ -20,11 +20,11 @@
 .edu-hero{
     width: 100%;
     margin: 2% 0%;
-    color: rgb(120, 159, 194);
+    color: rgb(66, 109, 146);
 }
 .edu-hero >span:nth-child(2){
    text-align: left;
-color: aqua;
+color: rgb(148, 144, 197);
   font-size: 1.5em;
   font-weight: 500;
   
@@ -41,4 +41,24 @@ color: aqua;
 .edu-board,.edu-percent{
    color: rgb(111, 110, 177);
     
+}
+@media (max-width:800px){
+
+
+.edu-card{
+    /* width: 20em; */
+    /* background-color: rgb(15, 6, 54); */
+    /* background-color: rgb(11, 8, 51); */
+/*     
+    margin: 2%;
+    padding: 2%;
+    text-align: left;
+    opacity: 0;
+    animation: animate 1000ms  forwards; */
+     text-align: center;
+}
+.validate-cert a{
+color: rgb(78, 79, 158);
+    text-decoration: underline;
+}
 }

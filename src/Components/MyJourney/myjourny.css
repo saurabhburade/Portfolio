@@ -9,7 +9,7 @@
     color: rgb(168, 193, 214);
 }
 .my-jo-subtitle{
-       color: rgb(168, 193, 214);
+       color: rgb(154, 162, 168);
     margin: 1% 0%;
     font-size: 0.9em;
 }
@@ -69,4 +69,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width:800px){
+.my-jo-btns{
+    /* width: 100%;
+    display: flex;
+    justify-content: center; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    
+}.jo-cont{
+    /* padding: 0% 5%; */
+  /* width:fit-content;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+    background-color: rgba(11, 8, 51, 0.966); */
+    /* background-color: tansparent; */
+    width:auto;
+    flex-direction: column;
+  
+}
+
 }

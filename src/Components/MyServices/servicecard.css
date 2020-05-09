@@ -45,3 +45,24 @@
   font-weight: 500;
   font-size: 0.9em; 
 }
+@media (max-width:800px){
+
+.ser-card{
+    /* width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgb(11, 8, 51);
+    margin:2%;
+    text-align: left;
+    padding: 2%; */
+    /* box-shadow: 0px 0px 10px rgba(25, 5, 49, 0.849); */
+    /* border: 1px solid rgb(10, 10, 73); */
+    /* border: none;
+    border-radius: 2px; */
+     width: 18em;
+     padding: 5%;
+    
+}
+}

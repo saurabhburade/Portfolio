@@ -6,6 +6,9 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import MyServices from './Components/MyServices/MyServices';
 import MyJourney from './Components/MyJourney/MyJourney';
 import Projects from './Components/Projects/Projects';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import GetInTouch from './Components/GetInTouch/GetInTouch';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -15,7 +18,8 @@ function App() {
       <MyServices/>
       <MyJourney/>
       <Projects/>
-     <h1>hello</h1>
+      <GetInTouch/>
+      <Footer/>
     </div>
   );
 }

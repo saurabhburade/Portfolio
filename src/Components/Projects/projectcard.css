@@ -1,29 +1,95 @@
+.project-card {
+  width: 20em;
 
-.swipe-left{
-     position: relative;
-    left: -700px;
-   animation: leftSlide 1000ms  forwards  ;  
+height: 25em;
+  opacity: 0;
+  animation: opa 1000ms forwards;
+  margin: 2%;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  color: aliceblue;
+  text-align: left;
+    background-color: rgb(11, 8, 51);
+display: flex;
+flex-direction: column;
+justify-content:stretch;
+align-items: stretch;
 }
-.swipe-right{
-     position: relative;
-    right: -700px;
-   animation: rightSlide 1000ms  forwards  ;  
+
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-@keyframes leftSlide{
-    
-    from{
-    left: -700px;
-    }
-    to{
-      left: 0px;  
-    }
+.proj-img {
+  width: auto;
+  opacity: 0.5;
+  transition-duration: 700ms;
 }
-@keyframes rightSlide{
-    
-    from{
-    right: -700px;
-    }
-    to{
-      right: 0px;  
-    }
+.proj-img:hover {
+  opacity: 0.9;
+}
+
+.proj-img > img {
+  width: 100%;
+  object-fit: cover;
+    height: 10em;
+}
+.proj-card-hero {
+  font-size: 1.5em;
+  color: rgb(161, 161, 179);
+
+  font-weight: 500;
+  margin: 2% 0%;
+}
+.yoc {
+  font-size: 0.9rem;
+  color: rgb(212, 100, 8);
+  font-weight: 500;
+}
+.proj-card-subtitle {
+  font-size: 0.9rem;
+  margin: 2% 0%;
+  font-weight: 500;
+  color: rgb(111, 110, 177);
+}
+.proj-detail > a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgb(133, 133, 167);
+  font-size: 0.9rem;
+
+}
+.proj-detail{
+  height: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:  stretch;
+   
+}
+@media (max-width:800px){
+.project-card {
+  /* width: 20em;
+
+height: 25em;
+  opacity: 0;
+  animation: opa 1000ms forwards;
+  margin: 2%;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  color: aliceblue;
+  text-align: left;
+    background-color: rgb(11, 8, 51);
+display: flex;
+flex-direction: column;
+justify-content:stretch;
+align-items: stretch; */
+margin: 5%;
+}
+
 }

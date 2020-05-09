@@ -1,17 +1,18 @@
-import React from 'react'
-import "./projectcard.css"
+import React from "react";
+import "./projectcard.css";
+import arrow from "../Images/arrow.svg";
 export default function ProjectCard(props) {
-    return (
-      <div
-        className={
-          props.swipe =="left"
-            ? "project-card swipe-left"
-            : props.swipe == "right"
-            ? "project-card swipe-right"
-            : "project-card"
-        }
-      >
-        <h1>{props.title}</h1>
+  return (
+    <div className="project-card">
+      <div className="proj-img">
+        <img src={props.img} alt="img" />
       </div>
-    );
+      <div className="proj-detail">
+        <p className="proj-card-hero">{props.title}</p>
+        <p className="yoc">{props.yoc}</p>
+        <p className="proj-card-subtitle">{props.details}</p>
+        <a href={props.link}>Go To Project</a>
+      </div>
+    </div>
+  );
 }

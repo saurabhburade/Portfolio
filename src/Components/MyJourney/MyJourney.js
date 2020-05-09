@@ -10,6 +10,7 @@ export default class MyJourney extends Component {
       educationActive: true,
       expActive: false,
       achActive: false,
+      scroll: window.scrollY,
     };
   }
   eduHandle = () => {
@@ -36,13 +37,14 @@ export default class MyJourney extends Component {
   
   
   render() {
+  console.log(this.state.scroll);
+    
     return (
-      <div className="my-jo-cont">
+      <div className="my-jo-cont" id="journey">
         <div className="my-jo-head">
           <p className="my-jo-hero">My Awesome Journey</p>
           <p className="my-jo-subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            officiis quia consequuntur
+      Go through my wonderful journey
           </p>
           <div className="my-jo-btns">
             <button

@@ -3,6 +3,7 @@
     padding:5% 10%;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .abt-img{
@@ -45,4 +46,22 @@
    font-weight: 500;
     padding:1.5% 2%;
     background-color: rgb(146, 100, 15);
+}
+@media (max-width:800px){
+
+.abt-me-cont{
+    /* display: flex;
+    padding:5% 10%;
+    justify-content: center;
+    align-items: center; */
+    margin: 10% 0%;
+    padding:1% 1%;
+}
+.abt-img{
+    position: absolute;
+    bottom: 10;
+    left: -10%;
+    width: 100%;
+    opacity: 0.2;
+}
 }

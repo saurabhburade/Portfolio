@@ -13,7 +13,14 @@ function Hero() {
           Professional Web Developer | Full-Stack Developer
         </p>
         <div className="hero-btns">
-          <button className="resume-btn">Download Resume</button>
+          <a
+            href="https://drive.google.com/file/d/1SZzCp5wvdXtwZDGrXWILPk1PzPZNi1Mf/view?usp=sharing"
+            
+          >
+            <button className="resume-btn" href="../../new-resume-saurabh.pdf">
+              Download Resume
+            </button>
+          </a>
           {/* <button className="portfolio-btn">Download Resume</button> */}
         </div>
       </div>

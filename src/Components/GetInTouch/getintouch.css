@@ -1,0 +1,140 @@
+.get-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 0% 5%;
+  position: relative;
+}
+.email-img {
+  width: 25em;
+  opacity: 0.7;
+}
+
+.get-in-touch-detail {
+  width: auto;
+  margin: 0% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-hero {
+  font-size: 2.2em;
+  font-weight: 600;
+
+  color: rgb(168, 193, 214);
+}
+.get-in-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  text-align: left;
+}
+.get-in-form > div {
+  font-size: 0.9em;
+  color: rgb(129, 164, 218);
+  font-weight: 600;
+  margin: 2% 0%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.get-in-form > div > input,
+.get-in-form > div > textarea {
+  color: rgb(84, 99, 197);
+  width: 25em;
+  padding: 0.5%;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid rgb(16, 28, 83);
+  background-color: transparent;
+  transition-duration: 500ms;
+}
+.get-in-form > div > input:focus {
+  border-bottom: 1.5px solid rgb(41, 68, 189);
+}
+.form-btn {
+  width: fit-content;
+}
+.form-submit-btn {
+  padding: 10%;
+  width: fit-content;
+  display: inline-block;
+  white-space: nowrap;
+
+  font-weight: 600;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  background-color: rgb(107, 153, 20);
+  color: rgb(228, 230, 231);
+  cursor: pointer;
+  transition-duration: 200ms;
+  box-shadow: 0px 0px 5px rgba(1, 0, 3, 0.192);
+}
+.form-submit-btn:hover {
+  background-color: rgb(12, 83, 16);
+}
+.form-submit-btn:active {
+  background-color: rgb(65, 19, 124);
+  box-shadow: 0px 0px 10px rgba(1, 0, 3, 0.651);
+}
+@media (max-width: 800px) {
+  .email-img {
+    position: absolute;
+
+    right: 0;
+    bottom: 30%;
+    width: 100%;
+    opacity: 0.1;
+    z-index: -9999;
+  }
+  .get-in-touch-detail {
+    /* width: auto;
+    margin:0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin: 0%;
+  }
+  .get-in-form {
+    /* width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: left; */
+    margin: 10% 0%;
+    padding: 1%;
+    /* width: auto; */
+  }
+  .get-in-form > div > input,
+.get-in-form > div > textarea {
+  /* color: rgb(84, 99, 197);
+  width: 25em;
+  padding: 0.5%;
+  font-size: 1.2em;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid rgb(16, 28, 83);
+  background-color: transparent;
+  transition-duration: 500ms; */
+  width: auto;
+  
+}
+.get-cont {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 0% 5%;
+  position: relative; */
+   padding: 1%;
+   margin: 10% 0%;
+}
+}
