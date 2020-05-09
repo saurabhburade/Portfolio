@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2f036bf8.chunk.css",
+    "main.js": "/portfolio/static/js/main.90e733f6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.90e733f6.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
+    "static/css/2.afd40c00.chunk.css": "/portfolio/static/css/2.afd40c00.chunk.css",
+    "static/js/2.ce42475f.chunk.js": "/portfolio/static/js/2.ce42475f.chunk.js",
+    "static/js/2.ce42475f.chunk.js.map": "/portfolio/static/js/2.ce42475f.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.13286002ef222a2d44aa8bae957ffb77.js": "/portfolio/precache-manifest.13286002ef222a2d44aa8bae957ffb77.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.afd40c00.chunk.css.map": "/portfolio/static/css/2.afd40c00.chunk.css.map",
+    "static/css/main.2f036bf8.chunk.css.map": "/portfolio/static/css/main.2f036bf8.chunk.css.map",
+    "static/js/2.ce42475f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ce42475f.chunk.js.LICENSE.txt",
+    "static/media/myjourny.css": "/portfolio/static/media/Achievement.a9897789.svg",
+    "static/media/hero.css": "/portfolio/static/media/Radiant-Gradient.4d2614d1.svg",
+    "static/media/TODO.JPG": "/portfolio/static/media/TODO.f4e0943c.JPG",
+    "static/media/arrow.svg": "/portfolio/static/media/arrow.4a29a7c6.svg",
+    "static/media/blog1.JPG": "/portfolio/static/media/blog1.f2915149.JPG",
+    "static/media/dash2.JPG": "/portfolio/static/media/dash2.36d760df.JPG",
+    "static/media/fb.svg": "/portfolio/static/media/fb.c1e76960.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.e4f2d6b0.svg",
+    "static/media/insta.svg": "/portfolio/static/media/insta.46ce74c2.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.1fd04ed6.svg",
+    "static/media/screencapture-fruits-shop-app-herokuapp-2020-05-05-15_52_11.png": "/portfolio/static/media/screencapture-fruits-shop-app-herokuapp-2020-05-05-15_52_11.0de6faa9.png",
+    "static/media/undraw_hacker_mindset_gjwq.svg": "/portfolio/static/media/undraw_hacker_mindset_gjwq.393207e1.svg",
+    "static/media/undraw_message_sent_1030.svg": "/portfolio/static/media/undraw_message_sent_1030.99af2e6d.svg",
+    "static/media/undraw_work_chat_erdt.svg": "/portfolio/static/media/undraw_work_chat_erdt.6cc5a933.svg",
+    "static/media/website.svg": "/portfolio/static/media/website.65e86a55.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4f2abbf.js",
+    "static/css/2.afd40c00.chunk.css",
+    "static/js/2.ce42475f.chunk.js",
+    "static/css/main.2f036bf8.chunk.css",
+    "static/js/main.90e733f6.chunk.js"
+  ]
+}
