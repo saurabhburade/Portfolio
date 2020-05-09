@@ -10,22 +10,22 @@ export default function Footer() {
         <div className="logo">Saurabh</div>
         <div className="social-links-cont">
           <div className="social-link">
-            <a href="#">
+            <a href="https://github.com/saurabhburade">
               <img src={git} className="social-icon" alt="github" />
             </a>
           </div>
           <div className="social-link">
-            <a href="#">
+            <a href="https://www.linkedin.com/in/saurabh-burade-8371ab182/">
               <img src={linkedin} className="social-icon" alt="linkedin" />
             </a>
           </div>{" "}
           <div className="social-link">
-            <a href="#">
+            <a href="https://www.instagram.com/saurabh_burade/">
               <img src={insta} className="social-icon" alt="instagram" />
             </a>
           </div>{" "}
           <div className="social-link">
-            <a href="#">
+            <a href="https://www.facebook.com/princesaurabh121">
               <img src={fb} className="social-icon" alt="Facebook" />
             </a>
           </div>

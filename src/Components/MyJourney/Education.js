@@ -11,7 +11,7 @@ function Education(props) {
       <p className="year-of-comp">Year of Completion: {props.yoc}</p>
       <p className="edu-board">
         {props.board}
-        <p>({props.college})</p>
+        <p> {"("} {props.college}{")"}</p>
       </p>
       <p className="edu-percent">Percentage : {props.percent}</p>
     </div>

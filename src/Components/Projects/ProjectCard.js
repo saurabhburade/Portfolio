@@ -1,6 +1,5 @@
 import React from "react";
 import "./projectcard.css";
-import arrow from "../Images/arrow.svg";
 export default function ProjectCard(props) {
   return (
     <div className="project-card">

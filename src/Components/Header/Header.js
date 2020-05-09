@@ -19,12 +19,12 @@ export default class Header extends React.Component {
   }
   render() {
     return (
-      <div className={"header-cont " + this.state.addClass}>
+      <div className={"header-cont " + this.state.addClass} id="home">
         <div className="logo">Saurabh Burade</div>
         <div className="nav-list-cont">
           <li className="nav-item">
-            <a href="#">Home</a>
-          </li>
+            <a href="#home">Home</a>
+          </li>  
           <li className="nav-item">
             <a href="#about-me">About Me</a>{" "}
           </li>

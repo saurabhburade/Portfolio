@@ -1,7 +1,6 @@
 import React from "react";
 import "./projects.css";
 import ProjectCard from "./ProjectCard";
-import { Carousel } from "react-responsive-carousel";
 import todo from "../Images/TODO.JPG";
 import blog from "../Images/blog1.JPG";
 import shop from "../Images/screencapture-fruits-shop-app-herokuapp-2020-05-05-15_52_11.png";
